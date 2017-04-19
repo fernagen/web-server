@@ -2,7 +2,7 @@
 
 
     var middleware = {requiredAuthentication: function (req, res, next) {
-      console.log('Private route hit');
+      console.log('Private route hit!!');
       next();
     },
     logger: function (req, res, next){
